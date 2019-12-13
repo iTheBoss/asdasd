@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REGISTRO</title>
+</head>
+<script type="text/javascript">
+	function validar(){
+		if (document.formulario.pass.value!=document.formulario.pass2.value) {
+			alert("Las claves no son las mismas");
+			document.formulario.pass2.value="";
+			document.formulario.pass2.focus();
+			return false;
+		}
+		if (confirm("Desea grabar ")==true) {
+			mensaje("Grabando datos");
+		}
+	}
+</script>
+<link rel="stylesheet" type="text/css" href="estilos.css">
+<body style="text-align: center">
+	<h1>Registrarse</h1>
+	<form name="formulario" id="formulario" method="post" action="registro.php" onsubmit="return validar()">
+		<input type="text" name="nombre" id="nombre" placeholder="Nombres" required="" class="cajaslogin"><br>
+		<input type="text" name="apellido" id="apellido" placeholder="Apellidos" required="" class="cajaslogin"><br>
+		<input type="email" name="email" id="email" placeholder="E-mail" required="" class="cajaslogin"><br>
+		<input type="password" name="pass" id="pass" placeholder="Contrasena" required="" class="cajaslogin"><br>
+		<input type="password" name="pass2" id="pass2" placeholder="Repetir contrasena" required="" class="cajaslogin"><br><br>
+		<input type="submit" name="registrar" id="registrar" value="Registrar" class="botoneslogin"><br><br>
+		<a href="login.html" target="fprincipal">Si tiene una cuenta, inicie sesión.</a>
+	</form>
+</body>
+</html>

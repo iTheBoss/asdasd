@@ -1,0 +1,210 @@
+h1{
+	
+	font: normal 2.4em Verdana, Geneva, Sans-serif;
+	padding: 10px 0 10px 20px;
+	background: black;
+	color: white;
+}
+h2{
+	font: bold 1.7em Verdana, Geneva, Sans-serif;
+	margin: 0;
+	padding: 5px 0 5px 0;
+	color: black;
+}
+h4{
+	font: normal 1.5em Arial, Geneva, Sans-serif;
+	margin: 0;
+	padding: 20px 0 0 0	;
+	color: white;
+}
+#dbiografia section{
+	width: 100%;
+	margin: 15px auto;
+	border-top: 1px dashed #999;
+}
+figure{
+	float: left;
+}
+#dbiografia figure{
+	margin: 20px 13px;
+}
+#dbiografia figure img{
+	padding: 3px;
+	background: #666;
+	border-radius: 20px;
+	transition: transform: 0.3 ease-in-out 0.1s;
+	box-shadow: #999 5px 5px 10px;
+}
+#dbiografia figure img:hover{
+	transform: scale(1.2);
+}
+#dbiografia figcaption{
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 5px;
+}
+footer{
+	clear: both;
+	position: absolute;
+	bottom: 10px;
+	float: right;
+}
+footer p{
+	font: 14px Georgia, "Times New Roman", Times, serif;
+	color: #666;
+	margin: 10px 8px;
+
+}
+.dbody{
+	background: #000;
+	font: normal 12px Roboto, Arial, Sans-Serif;
+	min-width: 1004px;
+	height: 100%;
+	-webkit-text-size-adjust: none;
+	margin: 0px 150px;
+}
+.dfondo{
+	display:block;
+	float:left;
+	clear:both;
+	position: absolute;
+	left: 50%;
+	width:1050px;
+	margin-left:-525px;
+	background: white;
+}
+.dindex{
+	margin: 0 auto -220px 15px;
+	width: 1004px;
+	padding-top: 0px;
+	color: #000000;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+.dencabezado{
+	float: left;
+	width: 1004px;
+	position: relative;
+	height: 80px;
+	border-left: 10px solid #B11016;
+	border-right: 10px solid #B11016;
+}
+.dlogo{
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+.dbuscador{
+	width: 604px;
+	height: 100%;
+	float: left;
+}
+.dsesion{
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+.dcontenido{
+	width: 1004px;
+	float: left;
+	border-left: 10px solid #B11016;
+	border-right: 10px solid #B11016;
+}
+.dmenu{
+	float: left;
+	width: 180px;
+	margin: 0px 10px 0px 10px;
+}
+.dprincipal{
+	float: left;
+	width: 794px;
+	/*width: 681px;*/
+	min-height: 200px;
+	margin-right: 10px;
+}
+#dmenu ul{
+	padding-left: 0px;
+}
+#dmenu ul li{
+	border: solid #B11016;
+	padding-top: 15px;
+	padding-left: 10px;
+	margin-bottom: 5px;
+	background: black;
+	padding-bottom: 15px;
+	list-style:none;
+}
+#dmenu ul a {
+	color: white;
+	text-decoration:none;
+	font: bold 22px stencil, impact, cambria;
+}
+#dmenu ul li:hover{
+	border: solid #B9262E;
+	padding-top: 15px;
+	padding-left: 10px;
+	margin: 5px;
+	background: #1A1819;
+	padding-bottom: 15px;
+	list-style:none;
+}
+.cajaslogin {
+	border-top: 0px;
+	border-left: 0px;
+	border-bottom: solid #B11016;
+	margin: 5px;
+	padding: 5px;
+}
+.botoneslogin {
+	border: 0px;
+	border-radius: 5px;
+	padding: 10px 20px;
+	background: #B11016;
+	font-size: 15px;
+	color: white;
+}
+table tr {
+	margin: 20px;
+}
+#tablevideos video {
+	margin-top: 15px;
+	width: 95%;
+}
+#dcomentarios ul li{
+	list-style: none;
+	text-decoration: none;
+}
+#dDiscos img {
+	width: 179px;
+	height: 179px;
+}
+#dDiscos img:hover {
+	width: 179px;
+	height: 179px;
+	opacity: 0.55;
+	filter: alpha(opacity=55);
+}
+#dDerechaDisco{
+	float: right;
+	width: 60%;
+	height: 700px;
+	background: black;
+	text-transform: uppercase;
+}
+#dIzquierdaDisco{
+	float: left;
+	width: 40%;
+	height: 690px;
+	background: black;
+	padding-top: 10px;
+}
+.tabladiscos{
+	padding: 7px 350px 7px 20px;
+	font: normal 12px Arial, Sans-serif, Verdana;
+	color: white;
+	text-transform: uppercase;
+	background: #0C0C0C
+	/*background: #171717;*/
+}
